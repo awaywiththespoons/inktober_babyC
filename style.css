@@ -1,0 +1,83 @@
+body {
+  margin: 10px;
+  background: #11dbd5;
+  text-align: left;
+  font-family: "helvetica neue";
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 30pt;
+  color: black;
+  font-weight: bold;
+
+}
+
+h3{
+font-size: 20pt;
+  font-weight: bold;
+
+}
+
+p {
+  font-align: left;
+  color: black;
+  left: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  outline: 0;
+  background-color: yellow;
+}
+
+a.otherlinks{
+  text-decoration: none;
+  color: black;
+  outline: 0;
+  background-color: lime;
+}
+
+/*----IMAGE stuff----*/
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.sketchbook {
+  width: 250px;
+}
+
+
+/* GRID*/
+
+
+/*----grid stuff----*/
+
+.wrap {
+  overflow: hidden;
+}
+
+.box {
+  width: 33%;
+  position: relative;
+  float: left;
+}
+
+@media only screen and (max-width: 550px) {
+  /* Smartphone. view: 1 tile */
+  .box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 551px) {
+  /* Tablet view: 2 tiles */
+  .box {
+    width: 50%;
+  }
+}
